@@ -1,0 +1,46 @@
+{
+  "PSO": {
+    "swarm_size": 20,
+    "inertia": 0.7,
+    "c1": 1.5,
+    "c2": 1.5,
+    "bounds": [
+      0.05,
+      1.0
+    ],
+    "budget": 150
+  },
+  "GA": {
+    "population": 20,
+    "crossover_rate": 0.9,
+    "mutation_rate": 0.2,
+    "mutation_sigma": 0.1,
+    "tournament_size": 3,
+    "elites": 2,
+    "bounds": [
+      0.05,
+      1.0
+    ],
+    "budget": 150
+  },
+  "ACOR": {
+    "archive_size": 20,
+    "q": 0.5,
+    "xi": 0.85,
+    "bounds": [
+      0.05,
+      1.0
+    ],
+    "budget": 150
+  },
+  "Bayesian": {
+    "surrogate": "Gaussian process",
+    "implementation": "skopt.Optimizer ask/tell",
+    "acquisition": "EI",
+    "bounds": [
+      0.05,
+      1.0
+    ],
+    "budget": 150
+  }
+}

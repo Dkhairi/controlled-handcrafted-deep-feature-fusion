@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+scikit-learn
+scikit-image
+PyWavelets
+Pillow
+matplotlib
+tqdm
+scikit-optimize
+openpyxl
+tensorflow>=2.12

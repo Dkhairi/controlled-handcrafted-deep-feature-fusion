@@ -1,0 +1,10 @@
+{
+  "F1_GLCM": 24,
+  "F2_DWT": 28,
+  "F3_SWT": 28,
+  "F4_DWT_GLCM": 24,
+  "F5_SWT_GLCM": 24,
+  "F6_VGG_RGB": 512,
+  "full_dimension": 640,
+  "fusion": "block-wise StandardScaler fitted on development/training data before scalar weighting; weighted concatenation"
+}

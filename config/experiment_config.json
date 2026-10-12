@@ -1,0 +1,48 @@
+{
+  "pipeline_version": "2.1-resume-safe",
+  "publication_mode": true,
+  "cpu_safe_mode": true,
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "optimizer_objective_evaluations": 150,
+  "ablation_objective_evaluations": 150,
+  "fitness_model": "LogisticRegression(C=1.0, lbfgs)",
+  "fitness_metric": "accuracy",
+  "weight_bounds": [
+    0.05,
+    1.0
+  ],
+  "handcrafted_input_size": [
+    128,
+    128
+  ],
+  "vgg_input_size": [
+    224,
+    224
+  ],
+  "vgg_network": "VGG16 ImageNet",
+  "vgg_layer": "block5_conv3",
+  "vgg_pooling": "GlobalAveragePooling2D",
+  "vgg_dimension": 512,
+  "main_vgg_input": "RGB",
+  "glcm_levels": 32,
+  "glcm_distances": [
+    1
+  ],
+  "glcm_angles_radians": [
+    0.0,
+    0.7853981633974483,
+    1.5707963267948966,
+    2.356194490192345
+  ],
+  "neural_max_epochs": 60,
+  "neural_batch_size": 16,
+  "neural_patience": 12
+}

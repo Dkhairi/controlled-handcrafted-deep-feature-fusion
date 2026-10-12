@@ -1,0 +1,17 @@
+Public reproducibility package prepared from retained final experimental artifacts.
+
+Included:
+- final publication notebook
+- exact single-file pipeline extracted from notebook
+- experiment/optimizer/feature/seeds configuration
+- sanitized dataset manifests
+- exact five-fold outer split manifests
+- per-dataset reviewer-ready result exports
+- sanitized Excel workbooks
+- README and detailed reproducibility notes
+- repository validation script
+
+Not included:
+- copyrighted/source dataset image files
+- local absolute workstation paths
+- generated model caches or large feature arrays

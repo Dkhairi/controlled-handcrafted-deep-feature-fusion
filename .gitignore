@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local datasets / large generated feature caches
+data/
+datasets/
+publication_results_resume_safe/
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
